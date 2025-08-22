@@ -1,7 +1,5 @@
 # 🤖 Echo Assistant
 
----
-
 Echo Assistant is an AI-powered personal assistant similar to Alexa or Siri.  
 The project is still in its early stages, but it already supports essential features like:
 
