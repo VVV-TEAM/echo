@@ -8,8 +8,6 @@ from utils.parse_gpt2 import parse_gpt_response2
 from utils.first_look_answer import first_look_for_answer
 from utils.exa_api import web_search
 from assistants.discord_write import write_discord
-import sys
-import re
 
 
 # Main while
@@ -47,15 +45,16 @@ while True:
                 print()
                 information_from_search = web_search(parsed_data_2['search'])
 
+            # this 2 dosn't work
             elif parsed_data_2["weather"]:
                 print(f"I need to know weather in {parsed_data_2['weather']}")
                 print()
-                weather = "30 C" 
+                weather = "I don't know" 
 
             elif parsed_data_2["time"]:
                 print(f"I need to know what time is it")
                 print()
-                time = "13:30" 
+                time = "I don't know" 
 
 
             gpt_response = generate_response(prompt, information_from_search, weather, time)

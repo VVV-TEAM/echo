@@ -65,7 +65,3 @@ def generate_response(prompt, information_from_search, weather, time):
         history = history[-10:]
 
     return ai_message
-    # reply = response.choices[0].message.content
-    # context.append({"role": "assistant", "content": reply})
-    
-    # return reply
