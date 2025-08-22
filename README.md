@@ -1,5 +1,7 @@
 # 🤖 Echo Assistant
 
+---
+
 Echo Assistant is an AI-powered personal assistant similar to Alexa or Siri.  
 The project is still in its early stages, but it already supports essential features like:
 
@@ -26,6 +28,7 @@ The project is still in its early stages, but it already supports essential feat
 ## 🚀 Installation
 
 Clone the repository and install all required dependencies:
+
 ```
 git clone https://github.com/VVV-TEAM/echo.git
 cd echo  
@@ -40,7 +43,9 @@ The `install.bat` script will automatically install all necessary packages via p
 
 Run the assistant with:
 
+```
 python main.py  
+```
 
 ---
 
@@ -69,3 +74,5 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 Created by **VVV TEAM**.
+
+---
