@@ -26,10 +26,11 @@ The project is still in its early stages, but it already supports essential feat
 ## 🚀 Installation
 
 Clone the repository and install all required dependencies:
-
+```
 git clone https://github.com/VVV-TEAM/echo.git
 cd echo  
 install.bat  
+```
 
 The `install.bat` script will automatically install all necessary packages via pip.
 
