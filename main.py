@@ -11,9 +11,9 @@ from utils.parse_weather_code import weather_code
 from assistants.discord_write import write_discord
 from assistants.time import get_time
 from assistants.weather import get_coordinates, get_weather
+# end imports
 
-
-# Main while
+# main while loop
 while True:
     user_input = listen()
 
