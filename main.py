@@ -112,8 +112,8 @@ while True:
                 speak()
             
             if parsed_data["command_found"]:
-                if parsed_data["write_discord"]:
-                    if parsed_data["channel_id"]:
+                if parsed_data["write_discord"] is not None:
+                    if parsed_data["channel_id"] is not None:
                         print(f"I send message: '{parsed_data['write_discord']}' to channel id: {parsed_data['channel_id']}")
                         print()
                         write_discord(parsed_data["write_discord"], parsed_data["channel_id"])
