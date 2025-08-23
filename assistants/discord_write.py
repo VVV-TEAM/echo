@@ -4,7 +4,7 @@ import json
 with open("./keys.json") as file:
     data = json.load(file)
 
-token = data["Discord_wyinpost_TOKEN"]
+token = data["Discord_TOKEN"]
 
 def write_discord(message, channel_id):
     url = f"https://discord.com/api/v9/channels/{channel_id}/messages"
