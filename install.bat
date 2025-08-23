@@ -8,6 +8,7 @@ pip install exa-py
 pip install TTS
 pip install gTTS
 pip install requests
+pip install datetime
 
 echo.
 echo All packages have been installed successfully!

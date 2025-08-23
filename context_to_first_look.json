@@ -13,11 +13,11 @@
     },
     {
         "role": "system",
-        "content": "Use 'weather' if the question asks about weather in any location. Provide only the location name."
+        "content": "Use 'weather' if the question asks about weather in any location. If user don't say city or country but say e.g. 'what weather is it' city is always poznan."
     },
     {
         "role": "system",
-        "content": "Use 'time' if the question asks about the current time, date, or day in a specific location. Provide only the location name."
+        "content": "Use 'time' if the question asks about the current time, date, or day in a specific country. If user don't say country but say e.g. 'what time is it' country is always poland."
     },
     {
         "role": "system",
