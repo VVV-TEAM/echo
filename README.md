@@ -8,6 +8,7 @@ The project is still in its early stages, but it already supports essential feat
 - 💬 **Response Generation** – powered by OpenAI API  
 - 🔎 **Information Search** – powered by Exa API  
 - 📩 **Discord Messaging** – powered by Discord API  
+- 🌤️ **Weather Check** - powered by Open-Meteo API
 
 ---
 
@@ -20,6 +21,7 @@ The project is still in its early stages, but it already supports essential feat
   - Coqui AI – TTS  
   - Google STT – speech recognition  
   - Discord API – messaging  
+  - Open-Meteo API - weather
 
 ---
 
@@ -58,8 +60,7 @@ python main.py
 ## 🛠️ Planned Features
 - 🎵 Spotify compatibility  
 - 🤖 A standalone Discord bot (direct messaging support)  
-- 🐧 Linux compatibility  
-- 🌤️ Weather, time and utility commands  
+- 🐧 Linux compatibility   
 - 🏠 Smart Home integration  
 - 🔧 More customization options  
 
