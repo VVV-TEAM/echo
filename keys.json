@@ -1,10 +1,10 @@
 {
         "OpenAi_KEY": 
-        "you need there your openai api key",
+        "Your OpenAI key",
 
         "EXA_KEY":
-        "exa key you can get this on https://exa.ai/",
+        "Your EXA key (Source: https://exa.ai/)",
 
         "Discord_TOKEN":
-        "USER discord token so YOUR discord token (NO BOT DISCORD TOKEN YOUR!!!!!)"
+        "Your discord token (NOT a bot token)"
 }
