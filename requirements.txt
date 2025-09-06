@@ -1,0 +1,7 @@
+openai==1.100.2
+exa-py==1.14.20
+TTS==0.22.0
+gTTS==2.5.4
+requests==2.32.5
+DateTime==5.5
+spotipy==2.25.1

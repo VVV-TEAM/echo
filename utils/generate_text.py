@@ -18,7 +18,7 @@ openai_key = data["OpenAi_KEY"]
 history = []
 
 
-def generate_response(prompt, information_from_search, weather, time):
+def generate_response(prompt, information_from_search, weather, time, spotify_stop, spotify_what):
     global history
     global context
 
@@ -26,7 +26,7 @@ def generate_response(prompt, information_from_search, weather, time):
     print()
 
     # Add important information to context
-    context.append({"role": "system", "content": f"There is what do you need to answer when is None skip this: web_search_information: {information_from_search}, weather {weather}, time {time}."})
+    context.append({"role": "system", "content": f"There is what do you need to answer when is None skip this: web_search_information: {information_from_search}, weather {weather}, time {time}, what song now is playing: {spotify_what}, stop music: {spotify_stop}."})
 
     # Add user message to history
     history.append({"role": "user", "content": prompt})

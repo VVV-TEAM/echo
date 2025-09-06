@@ -5,11 +5,15 @@
     },
     {
         "role": "system",
-        "content": "You must always return the result in the exact format: \nsearch: <query or none>\nweather: <location or none>\ntime: <location or none>"
+        "content": "You must always return the result in the exact format: \nsearch: <query or none>\nweather: <location or none>\ntime: <location or none>\nspotify_stop: <stop or none>\nspotify_what_music: <yes or none>"
     },
     {
         "role": "system",
         "content": "Use 'search' if the question requires current facts, news, or knowledge that may change over time. Write the search query in English."
+    },
+    {
+        "role": "system",
+        "content": "PLEASE DON'T SEARCH MUSIC TO PLAY!"
     },
     {
         "role": "system",
@@ -18,6 +22,14 @@
     {
         "role": "system",
         "content": "Use 'time' if the question asks about the current time, date, or day in a specific country. If user don't say country but say e.g. 'what time is it' country is always poland."
+    },
+    {
+        "role": "system",
+        "content": "Use 'spotify_stop' if the question asks about the stop music, or just say stop music."
+    },
+    {
+        "role": "system",
+        "content": "Use 'nspotify_what_music' if the question asks about the what music is play, or just say what music name."
     },
     {
         "role": "system",

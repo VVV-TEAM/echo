@@ -1,10 +1,16 @@
 {
         "OpenAi_KEY": 
-        "you need there your openai api key",
+        "Your OpenAI key",
 
         "EXA_KEY":
-        "exa key you can get this on https://exa.ai/",
+        "Your EXA key (Source: https://exa.ai/)",
 
         "Discord_TOKEN":
-        "USER discord token so YOUR discord token (NO BOT DISCORD TOKEN YOUR!!!!!)"
+        "Your discord token (NOT a bot token)",
+
+        "Spotify_client_ID":
+        "Spotify Client ID key. For this key you need create appliaction on https://developer.spotify.com/",
+
+        "Spotify_client_secret_ID":
+        "Spotify Client secret ID key. For this key you need create appliaction on https://developer.spotify.com/"
 }

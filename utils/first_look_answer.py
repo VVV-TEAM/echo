@@ -1,6 +1,7 @@
 import openai
 import os
 import json
+from assistants.time import get_time
 
 # keys path to json file
 with open("./keys.json") as file:
@@ -19,6 +20,7 @@ history = []
 
 
 def first_look_for_answer(prompt):
+    global context
     global history
 
     print(f"user question in generate_response: {prompt}")

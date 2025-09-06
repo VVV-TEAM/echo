@@ -26,9 +26,12 @@ def web_search(prompt):
     for r in result.results:
         print(r.title)
         print(r.url)
-        print(r.text[:200])
         print()
 
-        result = r.title + "\n" + r.text[:200]
+        result = r.title
+
+        print(result)
 
     return(result)
+
+# I working on search. Just please wait <3
