@@ -8,30 +8,28 @@ exa_key = data["EXA_KEY"]
 
 exa = Exa(api_key = exa_key)
 
-# web search for important information
 def web_search(prompt):
-
     print(f"I start searching {prompt}")
 
-    # search
     result = exa.search_and_contents(
         f"{prompt}",
         type="auto",
-        text=True,      
+        text=True,
         num_results=3
     )
 
     print(f"I end searching this is result:")
 
+    answers = []
     for r in result.results:
         print(r.title)
         print(r.url)
+
+        text = r.text[:200] + ("..." if len(r.text) > 200 else "")
+        print(text)
         print()
 
-        result = r.title
+        answers.append(f"{r.title}\n{text}\n{r.url}")
 
-        print(result)
-
-    return(result)
-
-# I working on search. Just please wait <3
+    final_answer = "\n---\n".join(answers)
+    return final_answer

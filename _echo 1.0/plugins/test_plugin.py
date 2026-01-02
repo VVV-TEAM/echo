@@ -1,7 +1,7 @@
 name = "test plugin"
 commands = ["test"]
 
-def run(command, args):
+def run(command, args, response):
     if command in commands:
         print(args)
     else:

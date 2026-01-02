@@ -33,7 +33,8 @@ def play_music(device_id, track_uri):
     sp.start_playback(device_id=device_id, uris=[track_uri])
 
 def stop_play(device_id):
-    sp.pause_playback(device_id=device_id)
+    print("stop")
+    #sp.pause_playback(device_id=device_id)
 
 def start_play(device_id):
     sp.start_playback(device_id=device_id)
